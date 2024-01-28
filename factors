@@ -16,7 +16,6 @@ def main():
         return
 
     input_file = sys.argv[1]
-
     try:
         with open(input_file, 'r') as file:
             for line in file:
@@ -31,4 +30,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
